@@ -1,0 +1,75 @@
+#main{
+    padding-left: 20px;
+}
+
+h1{
+    font-family: Impact, Charcoal, sans-serif;
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+h2{
+    font-family: Impact, Charcoal, sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+button{
+    border-radius: 5px;
+    padding: 10px 30px;
+    background-color: #589D47;
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    border-style: solid;
+    cursor: pointer;
+}
+
+#top{
+    display: flex;
+    flex-direction: row;
+    justify-content:  space-between;
+    align-items: center;
+    height: 40px;
+    padding-bottom: 20px;
+    padding-top:10px;
+}
+
+#openJobs{
+    padding-bottom: 20px;
+}
+
+th{
+    background-color: #49C4AF;
+    width: 200px;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    font-style: oblique;
+}
+
+table{
+    padding-bottom: 30px;
+    border-collapse: collapse;
+}
+
+td{
+    border-bottom: 1px solid #C0C0C0;
+    padding: 12px;
+    font-size: 12px;
+}
+tr:hover{
+    background-color: #EEEEEE;
+}
+
+a:link, a:visited{
+    text-decoration: none;
+    color: blue;
+}
+
+td:nth-of-type(5){
+    display: none;
+}
+
+th + th + th + th + th{
+    display: none;
+}
